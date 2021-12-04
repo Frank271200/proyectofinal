@@ -1,0 +1,693 @@
+    /*flex*/
+    
+    .flex1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-basis: 20px;
+    }
+    
+    .flex2 {
+        border: solid 2px black;
+        margin-top: 78px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 50px;
+    }
+    
+    .flex3 {
+        border: solid 2px black;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        height: max-content;
+        width: auto;
+    }
+    
+    .flex4 {
+        background-color: rgba(0, 0, 0, 0.808);
+        height: max-content;
+        width: max-content;
+        display: flex;
+        margin-top: 10px;
+        padding-top: 5px;
+        border-radius: 24px;
+        border: outset 10px #0be881;
+    }
+    
+    #banner1 {
+        border-radius: 17px;
+    }
+    
+    #menuFlexItem {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #menuItem {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #botonPedidos {
+        width: max-content;
+        height: max-content;
+        margin: 3px auto;
+    }
+    
+    #seccionH2 {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(0, 0, 0, 0.822);
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-top: 0px;
+        border-top: outset 10px #079a56;
+        border-bottom: outset 10px #079a56;
+        border-radius: 14px;
+    }
+    
+    #h1Menu {
+        height: max-content;
+        font-size: 48px;
+        color: white;
+    }
+    
+    #h2Menu {
+        color: white;
+    }
+    
+    #menuItemH2 {
+        color: #079a56;
+        letter-spacing: -2.4px;
+        font-size: 37px;
+        text-align: start;
+    }
+    
+    #infoMenu {
+        color: white;
+        font-size: 22px;
+        letter-spacing: 1.9px;
+        text-align: start;
+        height: 81px;
+    }
+    
+    .flexMenuComida {
+        background-color: rgba(0, 0, 0, 0.897);
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        border-radius: 24px;
+        border: outset 10px #0be881;
+    }
+    
+    .flexMenuComida2 {
+        background-color: rgba(0, 0, 0, 0.794);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding-top: 5px;
+        border-radius: 24px;
+        border: outset 10px #0be881;
+    }
+    
+    .footerFlex {
+        border: solid 1px slategrey;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+    
+    footer {
+        width: 1200px;
+        height: max-content;
+    }
+    
+    .botonA {
+        border: solid 2px black;
+        width: max-content;
+        height: max-content;
+        font-size: 25px;
+        padding: 20px;
+    }
+    
+    .flexCajaHistoria {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .cajaHistoria {
+        border: solid 1px black;
+        width: max-content;
+        height: max-content;
+        margin-left: 40%;
+        margin-top: 50px;
+    }
+    
+    #containerFlex {
+        display: flex;
+        justify-content: center;
+        background-color: #000000a6;
+    }
+    
+    #seccion1 {
+        background-image: url("https://cdn.vox-cdn.com/thumbor/huQqpZ9xP3eE_2THyn03iClQGO4=/0x0:4288x2848/1200x800/filters:focal(1801x1081:2487x1767)/cdn.vox-cdn.com/uploads/chorus_image/image/66682704/20191024_HATIC_BRATO4.0.jpeg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
+    
+    .titulosHistoria {
+        font-size: 35px;
+    }
+    
+    .tituloCajaHistoria {
+        font-size: 50px;
+    }
+    
+    #navDark {
+        background-color: rgba(0, 0, 0, 0.74);
+        border: outset 15px #0be881;
+        border-radius: 76px;
+    }
+    
+    #h1Color {
+        background-color: black;
+        color: #d2dae2;
+        margin-top: 9px;
+        letter-spacing: 4px;
+        border: outset 5px #0be881;
+        padding: 5px;
+        border-radius: 18px;
+        margin-right: 43px;
+        animation-name: efecto_h1;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease;
+        animation-duration: 5s;
+        font-family: 'Syne Mono', monospace;
+    }
+    
+    #containerMapa {
+        display: flex;
+        justify-content: center;
+    }
+    
+    #flexCupon {
+        display: flex;
+        flex-direction: row;
+        margin-left: 1%;
+        margin-top: 2%;
+    }
+    
+    #flexfooter {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        color: white;
+        background-color: rgba(0, 0, 0, 0.97);
+        padding: 21px;
+    }
+    
+    .li_none {
+        list-style: none;
+        width: max-content;
+        height: max-content;
+        font-size: 18px;
+    }
+    
+    #imgmenu1:hover {
+        opacity: 50%;
+        transform: scale(1.2);
+    }
+    
+    #precio {
+        color: #0be881;
+    }
+    
+    #flexPromo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border: outset 9px #0be881;
+        border-radius: 18px;
+        margin-top: 26px;
+        color: white;
+        background-color: black;
+    }
+    
+    #promocion {
+        background-image: url(https://9amdesayuno.com/wp-content/uploads/2018/10/Desayunos9Am_-58.jpg);
+    }
+    
+    #carroselCovimiento {
+        margin-top: 1px;
+    }
+    
+    .carousel-inner img {
+        width: 100%;
+        height: 1%;
+    }
+    
+    #container1 {
+        padding: 10px;
+    }
+    
+    #container1:hover {
+        transform: scale(1.05);
+        background-color: #0be88141;
+        border-radius: 16px;
+    }
+    
+    #flexRedes {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        height: max-content;
+        width: max-content;
+        margin-left: 33%;
+        margin-top: 3%;
+    }
+    
+    #footerResdes {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        background-color: #18191d;
+        border: outset 5px #0be881;
+        border-radius: 22px;
+    }
+    
+    #footerResdes1 {
+        padding-top: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        background-color: #18191d;
+        border: outset 5px #0be881;
+        border-radius: 22px;
+    }
+    
+    #color1 {
+        color: #d2dae2;
+        font-size: 20px;
+    }
+    
+    #containerMenu1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        border: 5px outset #0be881;
+        padding: 10px 10px 10px 10px;
+        background-color: #000000db;
+        border-radius: 24px;
+        padding: 21px;
+    }
+    
+    #h2Color2 {
+        color: #0be881;
+    }
+    
+    #columna1 {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+    }
+    
+    #imgmenu1 {
+        width: 224px;
+        height: 200px;
+        border-radius: 20px;
+    }
+    
+    #mapContainer {
+        padding: 23px;
+        display: flex;
+        justify-content: center;
+        background-color: #000000a6;
+    }
+    
+    #mapContainerInside {
+        padding: 23px;
+        border: outset 9px #0be881;
+        border-radius: 24px;
+        background-color: rgba(0, 0, 0, 0.97);
+    }
+    
+    #formFlex {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    
+    #formFlex-Container {
+        display: flex;
+        flex-direction: column;
+        border: outset 5px #0be881;
+        border-radius: 24px;
+        padding: 20px 30px 20px 30px;
+        background-color: #000000c2;
+    }
+    
+    #botonSubmit {
+        width: max-content;
+        margin-left: 31%;
+        margin-top: 10%;
+    }
+    
+    label {
+        font-size: 20px;
+        width: max-content;
+        color: #0be881;
+        border-radius: 10px;
+        padding: 5px;
+    }
+    
+    input {
+        width: 200px;
+        height: 35px;
+        background-color: #0be88175;
+        border: none;
+        border-radius: 15px;
+        color: white;
+    }
+    
+    #menuBlack {
+        background-color: black;
+        opacity: 58%;
+    }
+    
+    #flexMenu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    @keyframes efecto_body {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 50;
+        }
+        100% {
+            opacity: 100;
+        }
+    }
+    
+    @keyframes efecto_h1 {
+        0% {
+            transform: scale(1);
+        }
+        40% {
+            transform: scale(1.2);
+        }
+        60% {
+            transform: scale(1.3);
+        }
+        80% {
+            transform: scale(1.2);
+        }
+        100% {
+            transform: scale(1);
+        }
+    }
+    
+    body {
+        animation-name: efecto_body;
+        animation-duration: 5s;
+        animation-delay: 0s;
+        margin: 0;
+    }
+    
+    #seccionMenu {
+        flex-direction: row;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 5px 1px 5px 1px;
+    }
+    
+    #botonInfo {
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    
+    #img1 {
+        border-radius: 24px;
+        height: 300px;
+        width: 300px;
+    }
+    
+    #containerlist {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    
+    #footerlegales1 {
+        width: 42%;
+    }
+    
+    #img1-1 {
+        border-radius: 24px;
+        height: 200px;
+        width: 195px;
+    }
+    
+    #aBoton {
+        color: white;
+    }
+    
+    #aBoton:hover {
+        color: #0be881;
+    }
+    
+    #texArea {
+        margin-top: 12px;
+    }
+    
+    #img2 {
+        border-radius: 24px;
+        height: 300px;
+        width: 300px;
+    }
+    
+    #img3 {
+        border-radius: 24px;
+        height: 300px;
+        width: 300px;
+    }
+    
+    #img4 {
+        height: 300px;
+    }
+    /***************************************************/
+    
+    h1 {
+        font-family: "Montserrat", sans-serif;
+        color: black;
+        font-size: 60px;
+        text-align: center;
+    }
+    
+    h2 {
+        font-size: 30px;
+        text-align: center;
+        color: #0be881;
+    }
+    
+    p {
+        font-family: "Bodoni Moda", serif;
+        color: white;
+        font-size: 30px;
+        text-align: start;
+        line-height: 1.2;
+        letter-spacing: 2px;
+    }
+    
+    span {
+        color: #0be881;
+    }
+    
+    #parrafo2 {
+        font-size: 25px;
+    }
+    
+    a {
+        color: white;
+    }
+    
+    @media only screen and (min-width: 568px) {
+        #img1 {
+            border-radius: 24px;
+            height: 150px;
+            width: 150px;
+        }
+        #img2 {
+            border-radius: 24px;
+            height: 150px;
+            width: 150px;
+        }
+        #img3 {
+            border-radius: 24px;
+            height: 150px;
+            width: 150px;
+        }
+        #parrafo2 {
+            font-size: 11px;
+        }
+        #img4 {
+            height: 195px;
+        }
+        #containerlist {
+            flex-direction: column;
+        }
+    }
+    
+    @media only screen and (min-width: 768px) {
+        #img1 {
+            border-radius: 24px;
+            height: 200px;
+            width: 200px;
+        }
+        #img2 {
+            border-radius: 24px;
+            height: 200px;
+            width: 200px;
+        }
+        #img3 {
+            border-radius: 24px;
+            height: 200px;
+            width: 200px;
+        }
+        #color1 {
+            font-size: 20px;
+        }
+        #flexCupon {
+            margin-left: 0%;
+        }
+        #flexMenu {
+            margin-left: 0%;
+        }
+        #parrafo2 {
+            font-size: 18px;
+        }
+        #img4 {
+            height: 195px;
+        }
+        #containerlist {
+            flex-direction: row;
+        }
+    }
+    
+    @media only screen and (min-width: 992px) {
+        #color1 {
+            font-size: 20px;
+        }
+        #flexCupon {
+            margin-left: 0%;
+        }
+        #mapContainer {
+            flex-direction: row;
+        }
+        #flexMenu {
+            margin-left: 0%;
+        }
+        #img1 {
+            border-radius: 24px;
+            height: 300px;
+            width: 300px;
+        }
+        #img2 {
+            border-radius: 24px;
+            height: 300px;
+            width: 300px;
+        }
+        #img3 {
+            border-radius: 24px;
+            height: 300px;
+            width: 300px;
+        }
+        #img4 {
+            height: 300px;
+        }
+        #containerlist {
+            flex-direction: row;
+        }
+    }
+    
+    @media only screen and (min-width: 1200px) {
+        #flexCupon {
+            margin-left: 0%;
+        }
+        #flexMenu {
+            margin-left: 0%;
+        }
+        #img1 {
+            border-radius: 24px;
+            height: 300px;
+            width: 300px;
+        }
+        #img2 {
+            border-radius: 24px;
+            height: 300px;
+            width: 300px;
+        }
+        #img3 {
+            border-radius: 24px;
+            height: 300px;
+            width: 300px;
+        }
+        #parrafo2 {
+            font-size: 25px;
+        }
+    }
+    
+    #btn2 {
+        padding: 5px 15px 5px 15px;
+        border-radius: 15px;
+        background-color: #1e272e;
+        color: white;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    #btn2:hover {
+        background-color: #0be881;
+        color: #1e272e;
+        transform: scale(1.20);
+        cursor: pointer;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    #btn1 {
+        padding: 5px 15px 5px 15px;
+        font-size: 20px;
+        letter-spacing: 2px;
+        color: white;
+        background-color: black;
+        border: none;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    #btn1:hover {
+        transform: scale(1.10);
+        background-color: white;
+        color: black;
+        border: outset 5px black;
+        border-radius: 10px;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+    
+    #vinculos {
+        color: white;
+    }
+    
+    #vinculos:hover {
+        color: #0be881;
+    }
